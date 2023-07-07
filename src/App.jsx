@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './assets/Header/Header'
-import {Body} from './assets/Header/Body/Body'
+import Header from '../Components/Header'
+import {Body} from './assets/Body'
 
 
 
