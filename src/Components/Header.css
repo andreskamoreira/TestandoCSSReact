@@ -1,0 +1,33 @@
+#header{
+    height: 100px;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    display: flex;
+    font-size: xx-large;
+    padding: 10px 100px;
+}
+
+#menu{
+   list-style: none;
+   border: 1px solid c0c0c0;
+   float: left;
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+#menu li{
+    position: relative;
+    float: left;
+    border-right: 1px solid c0c0c0; 
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+#menu li a {
+    color: #333;
+    text-decoration: none;
+    padding: 8px;
+    padding-left: 8px;
+    display: block;
+}
