@@ -1,4 +1,4 @@
-#header{
+.Header{
     height: 100px;
     width: 80%;
     justify-content: space-between;
@@ -6,17 +6,17 @@
     text-align: right;
     display: flex;
     font-size: xx-large;
-    padding: 10px 100px;
+    padding: 10px 150px;
 }
 
-#menu{
+.menu{
    list-style: none;
    border: 1px solid c0c0c0;
    float: left;
    font-family:Arial, Helvetica, sans-serif;
 }
 
-#menu li{
+.menu li{
     position: relative;
     float: left;
     border-right: 1px solid c0c0c0; 
@@ -24,8 +24,8 @@
     list-style-type: none;
 }
 
-#menu li a {
-    color: #333;
+.menu li a {
+    color: #676666;
     text-decoration: none;
     padding: 8px;
     padding-left: 8px;
