@@ -1,12 +1,11 @@
 .Header{
     height: 100px;
-    width: 80%;
     justify-content: space-between;
     align-items: center;
     text-align: right;
     display: flex;
     font-size: xx-large;
-    padding: 10px 150px;
+    padding: 10px;
 }
 
 .menu{
@@ -28,6 +27,6 @@
     color: #676666;
     text-decoration: none;
     padding: 8px;
-    padding-left: 8px;
+    
     display: block;
 }

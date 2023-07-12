@@ -6,17 +6,17 @@ export function Body () {
     return(
         <>
             <div className={styles.div_topo}>
-                <div className={styles.div_image}>
+                <div id="image">
                     <section>
-                        <div>
-                            <a href="#"><img src={image1} alt="" width={850}/></a>
+                        <div className={styles.image}>
+                            <a href="#"><img src={image1} alt="" width={800}/></a>
                         </div>
                     </section>
                 </div>
 
                 <div className={styles.div}>
-                         <strong>NEW</strong>
-                    <div className={styles.container}>
+                        <div className={styles.container}>
+                        <strong>NEW</strong>
                         <h6 className={styles.h6}>Hydrogen VS Eletric Cars</h6>     
                         <p className={styles.container_p}>Will hydrogen-fueled cars ever catch up<br/>
                         to EVs?</p>  
