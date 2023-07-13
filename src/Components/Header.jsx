@@ -1,6 +1,6 @@
-import styles from './Header.module.css'
+import styles from '../Components/Header.module.css'
 
-function Header () {
+export function Header () {
     return (
         <div className={styles.Header}>
          <h1><strong> W. </strong></h1>
@@ -18,4 +18,3 @@ function Header () {
     );
 }
 
-export default Header
