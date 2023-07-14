@@ -26,7 +26,7 @@ export function Body () {
                             <br/>
                             <br/>
                             <button type="button" className={styles.Cardbutton}>
-                                Read More
+                                READ MORE
                             </button>   
                             </p> 
                         </div>                        

@@ -1,5 +1,5 @@
 .page{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -11,13 +11,13 @@
 
  .card1{
     display: block;
-    margin: 40px;
+    margin: 10px;
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
  }
  
  .card1 p{
     color: rgb(100, 101, 101);
-    font-size: 12px;
+    font-size: 14px;
  }
 
  .card1 h2{

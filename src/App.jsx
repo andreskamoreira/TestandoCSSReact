@@ -15,7 +15,7 @@ export default function App() {
       <Body/>
         <div className={styles.father_cards}>
           <Cards>
-              <img src={image2}/>
+              <img src={image2} width={"25%"}/>
               <div className={styles.card1}>
                     <h2>01</h2>
                     <h4>Reviving Retro Pcs</h4>
@@ -25,7 +25,7 @@ export default function App() {
           </Cards>
 
           <Cards>
-              <img src={image3}/>
+              <img src={image3} width={"25%"}/>
               <div className={styles.card1}>
                     <h2>02</h2>
                     <h4>Top Laptops of 2022</h4>
@@ -35,7 +35,7 @@ export default function App() {
           </Cards>
 
           <Cards>
-            <img src={image4}/>
+            <img src={image4} width={"25%"}/>
             <div className={styles.card1}>
                   <h2>03</h2>
                   <h4>The Growth of Gaming</h4>
